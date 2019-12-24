@@ -21,7 +21,7 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        pre-build-command: "apt-get update -y && apt-get install latex"
+        pre-build-command: "apt-get update -y && apt-get install latexmk"
         build-command: "make latexpdf"
         args: "docs2/"
 
