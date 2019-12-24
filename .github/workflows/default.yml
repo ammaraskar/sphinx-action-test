@@ -18,4 +18,9 @@ jobs:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         build-command: "sphinx-build -b html . _build"
         args: "docs2/"
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        build-command: "make latexpdf"
+        args: "docs2/"
 
