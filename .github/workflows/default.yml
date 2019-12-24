@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: ammaraskar/sphinx-action@d5f5c33
+    - uses: ammaraskar/sphinx-action@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         args: "docs/ docs2/"
