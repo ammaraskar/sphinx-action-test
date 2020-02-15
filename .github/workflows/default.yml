@@ -28,9 +28,14 @@ jobs:
         build-command: "make latexpdf"
         docs-folder: "docs2/"
     # Great extra actions to compose with:
+    # Create an artifact of the html output.
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: docs/_build/html/
     # Create an artifact out of the previously built pdf.
     - uses: actions/upload-artifact@v1
       with:
-        name: DocumentationPDF
+        name: Documentation
         path: docs2/_build/latex/pdfexample.pdf
 
