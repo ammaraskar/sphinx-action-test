@@ -10,6 +10,9 @@ Welcome to No Errors Test Project's documentation!
    :maxdepth: 2
    :caption: Hello World!
 
+Hello.
+
+.. bad_directive::
 
 
 Indices and tables
