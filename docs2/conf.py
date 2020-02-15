@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'No Errors Test Project'
+project = 'PDFExample'
 copyright = '2019, sphinx-action Test Suite'
 author = 'sphinx-action Test Suite'
 
