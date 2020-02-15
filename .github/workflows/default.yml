@@ -39,6 +39,7 @@ jobs:
         name: Documentation
         path: docs2/_build/latex/pdfexample.pdf
     # Publish built docs to gh-pages branch.
+    # ===============================
     - name: Commit documentation changes
       run: |
         git clone https://github.com/ammaraskar/sphinx-action-test.git --branch gh-pages --single-branch gh-pages
@@ -56,3 +57,4 @@ jobs:
         branch: gh-pages
         directory: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    # ===============================
