@@ -1,4 +1,4 @@
-# sphinx-action-test
+# sphinx-action-test fork
 
 ![CI](https://github.com/ammaraskar/sphinx-action-test/workflows/CI/badge.svg)
 
